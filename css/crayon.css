@@ -14,6 +14,10 @@ nav {
     box-shadow: none;
 }
 
+.nav-wrapper .brand-logo img {
+    height: 64px;
+}
+
 .daftar-btn {
     border-width: 2px;
     border-color: #39587E;
@@ -25,11 +29,11 @@ nav {
     text-transform: none;
 }
 
-h3 {
+h2 {
     margin-top: 0;
 }
 
-h2 {
+h1 {
     margin-top: 0;
 }
 
@@ -62,20 +66,21 @@ h2 {
 }
 
 #jadwal {
-  font-family: 'cray';
+    font-family: 'cray';
 }
 
-#video{
-  font-family: 'cray';
+#video {
+    font-family: 'cray';
 }
 
 #cara-daftar {
-  font-family: 'cray';
+    font-family: 'cray';
 }
 
 #dokumentasi {
-  font-family: 'cray';
+    font-family: 'cray';
 }
+
 #dokumentasi img {
     height: auto;
     width: 100%;
@@ -99,96 +104,15 @@ h2 {
     margin-top: -0.75rem;
 }
 
-/*
-TIMELINE
-
-
-.timeline {
-
-  white-space: nowrap;
-  overflow-x: auto;
-
-}
- 
-.timeline ol {
-  font-size: 0;
-  width: 100vw;
-  padding: 250px 0;
-  transition: all 1s;
-}
- 
-.timeline ol li {
-  position: relative;
-  display: inline-block;
-  list-style-type: none;
-  width: 160px;
-  height: 3px;
-  background: #fff;
-}
- 
-.timeline ol li:last-child {
-  width: 280px;
-}
- 
-.timeline ol li:not(:first-child) {
-  margin-left: 14px;
-}
- 
-.timeline ol li:not(:last-child)::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: calc(100% + 1px);
-  bottom: 0;
-  width: 12px;
-  height: 12px;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  background: #9575cd;
+#cara-daftar .card-panel {
+    border-radius: 10px;
 }
 
-.timeline ol li div {
-  position: absolute;
-  left: calc(100% + 7px);
-  width: 280px;
-  padding: 15px;
-  font-size: 1rem;
-  white-space: normal;
-  color: black;
-  background: white;
-}
- 
-.timeline ol li div::before {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
+#kompetisi img {
+    width: auto;
+    height: 435px;
 }
 
-.timeline ol li:nth-child(odd) div {
-  top: -16px;
-  transform: translateY(-100%);
-}
- 
-.timeline ol li:nth-child(odd) div::before {
-  top: 100%;
-  border-width: 8px 8px 0 0;
-  border-color: white transparent transparent transparent;
-}
-
-.timeline ol li:nth-child(even) div {
-  top: calc(100% + 16px);
-}
- 
-.timeline ol li:nth-child(even) div::before {
-  top: -8px;
-  border-width: 8px 0 0 8px;
-  border-color: transparent transparent transparent white;
-}
-*/
 
 .s {
     font-family: 'Permanent Marker';
@@ -196,10 +120,12 @@ TIMELINE
 
 #crayon-itu .ganjil {
     text-align: left;
+    font-size: 30px;
 }
 
 #crayon-itu .genap {
     text-align: right;
+    font-size: 30px;
 }
 
 #header .logo-crayon {
@@ -210,11 +136,16 @@ TIMELINE
 }
 
 @font-face {
-        font-family: cray;
-        src: url(font.ttf);
+    font-family: cray;
+    src: url(font.ttf);
 }
 
 .fnt {
-  font-family: 'cray';
-  font-size: 30px;
+    font-family: 'cray';
+    font-size: 30px;
+}
+
+#kompetisi,
+#crayon-itu {
+    margin: 0;
 }
