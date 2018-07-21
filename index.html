@@ -11,23 +11,31 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/crayon.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    
     <div class="navbar-fixed">
         <nav>
+            <div class="topnav" id="myTopnav">
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo"><img src="images/logo.png" alt="" class="responsive-img"></a>
+                    <a href="#" class="brand-logo active"><img src="images/logo.png" alt="" class="responsive-img"></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a class="fnt" href="sass.html">Beranda</a></li>
                         <li><a class="fnt" href="badges.html">Kompetisi</a></li>
                         <li><a class="fnt" href="collapsible.html">Dokumentasi</a></li>
                         <li><a class="waves-effect waves-light btn daftar-btn" href="daftar.html">Daftar</a></li>
+
                     </ul>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"> 
+                        <i class="fa fa-bars"></i> </a>
                 </div>
             </div>
+            </div>
         </nav>
+        
     </div>
     <div id="register" class="warna-bg">
         <div class="container">
@@ -82,7 +90,7 @@
     <div id="video" class="warna-bg">
         <div class="container center">
             <h2 class="center">Video</h2>
-            <div data-aos="fade-left" data-aos-duration="2000" class="video-container">
+            <div class="video-container">
                 <iframe width="854" height="480" src="https://www.youtube.com/embed/Z1kzveRhF0k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
