@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="preloader-background">
+    <div id="loading" class="preloader-background">
         <div class="preloader-wrapper big active">
             <div class="spinner-layer spinner-blue">
                 <div class="circle-clipper left">
@@ -338,22 +338,24 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+
+
     </script>
     <script>
         AOS.init();
+
     </script>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            $('.preloader-background').delay(2000).fadeOut('slow');
+        var loading = document.getElementById('loading');
 
-            $('.preloader-wrapper')
-                .delay(2000)
-                .fadeOut();
-
+        window.addEventListener('load', function() {
+            loading.style.display = "none";
         });
+
     </script>
     <script>
         $(".button-collapse").sideNav();
+
     </script>
     <script src="js/crayon.js"></script>
 
