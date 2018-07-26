@@ -14,7 +14,57 @@
 </head>
 
 <body>
+    <div class="preloader-background">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
 
+            <div class="spinner-layer spinner-red">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-yellow">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-green">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="navbar-fixed">
         <nav>
@@ -43,17 +93,20 @@
         </nav>
     </div>
 
-    <div class="fnt warna-bg">
+    <div id="header-crayon-itu" class="fnt warna-bg">
+
         <div id="header" class="center" data-aos="flip-left" data-aos-duration="3000">
             <img src="images/logo.png" alt="Logo Crayon" class="logo-crayon responsive-img">
         </div>
+
+        <img class="backawan" src="images/backawan.png" alt="">
+
         <div id="crayon-itu" class="warna-bg fnt">
             <div class="container">
-                <br>
+                <div class="row">
+                    <div data-aos="fade-down-right" data-aos-duration="2000">
+                        <h2 class="center">Crayon Itu</h2>
 
-                <h2 class="center">Crayon Itu</h2>
-                <div data-aos="fade-down-right" data-aos-duration="2000">
-                    <div class="row">
                         <div class="col s8">
                             <p class="ganjil">Children at Technology Competition atau disingkat CRAYON adalah acara kompetisi di bidang teknologi komputer yang diadakan khusus untuk melatih keterampilan anak dalam dua bidang sekaligus, yaitu seni rupa dan pemanfaatan teknologi. CRAYON terdiri dari lomba menggambar dengan menggunakan komputer dan dikhususkan untuk anak-anak kelas satu hingga kelas enam sekolah dasar di DIY dan sekitarnya.</p>
                         </div>
@@ -66,47 +119,52 @@
                         </div>
                     </div>
                 </div>
-
-            </div>
-        </div>
-        <div id="kompetisi" class="container">
-            <div class="fnt">
-                <h2 class="center">Kompetisi</h2>
-            </div>
-            <div class="row">
-                <div class="col s4">
-                    <div data-aos="fade-up" data-aos-duration="1000">
-                        <img src="images/balon1.png" alt="" class="responsive-img"></div>
-                    <div data-aos="zoom-in-up">
-                        <h4 class="center kategori">Kategori</h4>
-                    </div>
-                </div>
-
-                <div class="col s4">
-                    <div data-aos="fade-up" data-aos-duration="1000">
-                        <img src="images/balon2.png" alt="" class="responsive-img"></div>
-                    <div data-aos="zoom-in-up">
-                        <h4 class="center side-event">Side Event</h4>
-                    </div>
-                </div>
-                <div class="col s4">
-                    <div data-aos="fade-up" data-aos-duration="1000">
-                        <img src="images/balon3.png" alt="" class="responsive-img"></div>
-                    <div data-aos="zoom-in-up">
-                        <h4 class="center fasilitas">Fasilitas</h4>
-                    </div>
-                </div>
             </div>
         </div>
 
+        <div id="kompetisi" class="warna-bg fnt">
+            <div class="container">
+                <div class="fnt">
+                    <div data-aos="flip-left" data-aos-duration="1500" data-aos-offset="-20">
+                        <h2 class="center">Kompetisi</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s4">
+                        <div data-aos="fade-up" data-aos-duration="1000">
+                            <img src="images/balon1.png" alt="" class="responsive-img"></div>
+                        <div data-aos="zoom-in-up" data-aos-offset="-30">
+                            <h4 class="center kategori">Kategori</h4>
+                        </div>
+                    </div>
+
+                    <div class="col s4">
+                        <div data-aos="fade-up" data-aos-duration="1000">
+                            <img src="images/balon2.png" alt="" class="responsive-img"></div>
+                        <div data-aos="zoom-in-up" data-aos-offset="-50">
+                            <h4 class="center side-event">Side Event</h4>
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div data-aos="fade-up" data-aos-duration="1000">
+                            <img src="images/balon3.png" alt="" class="responsive-img"></div>
+                        <div data-aos="zoom-in-up" data-aos-offset="0">
+                            <h4 class="center fasilitas">Fasilitas</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
     <div id="jadwal">
         <div class="container">
-            <h2 class="center">Jadwal</h2>
+            <div data-aos="flip-left" data-aos-duration="1500" data-aos-offset="-20">
+                <h2 class="center">Jadwal</h2>
+            </div>
             <section class="cd-horizontal-timeline">
-                <!--                <div data-aos="flip-right" data-aos-duration="2000">-->
+
                 <div class="timeline">
                     <div class="events-wrapper">
                         <div class="events">
@@ -158,7 +216,9 @@
 
     <div id="cara-daftar" class="warna-bg">
         <div class="container">
-            <h2 class="center">Cara Daftar</h2>
+            <div data-aos="flip-left" data-aos-duration="1500" data-aos-offset="-2-">
+                <h2 class="center">Cara Daftar</h2>
+            </div>
             <div class="row">
                 <div class="col s12 m6 l3">
                     <div data-aos="fade-up-right" data-aos-duration="2000">
@@ -199,21 +259,27 @@
             </div>
 
         </div>
-    </div>
 
-    <div id="video" class="warna-bg">
-        <div class="container center">
-            <h2 class="center">Video</h2>
-            <div class="video-container">
-                <iframe width="854" height="480" src="https://www.youtube.com/embed/Z1kzveRhF0k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+        <div id="video" class="warna-bg">
+            <div class="container center">
+                <div data-aos="flip-left" data-aos-duration="1500" data-aos-offset="-20">
+                    <h2 class="center">Video</h2>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="2000">
+                    <div class="video-container">
+                        <iframe width="854" height="480" src="https://www.youtube.com/embed/Z1kzveRhF0k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-
     <div id="dokumentasi" class="warna-bg">
         <div class="container">
-            <h2 class="center">Dokumentasi</h2>
+            <div data-aos="flip-left" data-aos-duration="1500" data-aos-offset="-50">
+                <h2 class="center">Dokumentasi</h2>
+            </div>
             <div data-aos="fade-right" data-aos-duration="2000">
                 <div class="row">
                     <div class="col s12 m4"><img class="responsive-img" src="images/4.png" alt=""></div>
@@ -236,10 +302,12 @@
 
 
 
-    <div id="sponsor">
+    <div id="sponsor" class="warna-bg">
         <div class="container">
             <div class="fnt">
-                <h2 class="center">Sponsor &amp; Media Partner</h2>
+                <div data-aos="flip-left" data-aos-duration="1500" data-aos-offset="-50">
+                    <h2 class="center">Sponsor &amp; Media Partner</h2>
+                </div>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, harum!</p>
         </div>
@@ -251,16 +319,17 @@
             <br>
             <br>
             <div class="langsung-saja">
-                <h1>Langsung Saja!</h1>
+                <div data-aos="flip-left" data-aos-duration="1500" data-aos-offset="-20">
+                    <h1>Langsung Saja!</h1>
+                </div>
             </div>
             <div class="contact fnt">
                 <p>Contact Person :</p>
                 <p>08xx xxxx xxxx (nama)</p>
                 <p>08xx xxxx xxxx (nama)</p>
-                <a class="waves-effect waves-light btn btn-daftar right">Daftar Sekarang!</a>
-                <br>
-                <br>
-                <br>
+                <!--                <a class="waves-effect waves-light btn btn-daftar center">Daftar Sekarang!</a>-->
+                <a class="waves-effect waves-light btn-large btn-daftar">Daftar Sekarang!</a>
+
             </div>
         </div>
     </div>
@@ -269,16 +338,22 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-
-
     </script>
     <script>
         AOS.init();
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            $('.preloader-background').delay(2000).fadeOut('slow');
 
+            $('.preloader-wrapper')
+                .delay(2000)
+                .fadeOut();
+
+        });
     </script>
     <script>
         $(".button-collapse").sideNav();
-
     </script>
     <script src="js/crayon.js"></script>
 

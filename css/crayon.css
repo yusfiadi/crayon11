@@ -3,10 +3,25 @@
     padding: 0px;
 }
 
+
 .warna-bg {
     height: auto;
     width: 100%;
     background-color: #B6E4FB;
+}
+
+
+.preloader-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 
@@ -19,7 +34,6 @@
 nav {
     box-shadow: none;
     background: rgba(182, 228, 251, 1);
-
 }
 
 
@@ -76,6 +90,8 @@ nav ul a {
 
 /*NAVBAR SELESAI*/
 
+#header-crayon-itu {}
+
 /*CRAYON ITU*/
 
 #header {
@@ -93,11 +109,21 @@ nav ul a {
     margin-top: 100px;
 }
 
-#crayon-itu {
-    background-image: url(../images/backawan.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+/*HEADER SELESAI*/
+
+#header-crayon-itu img.backawan {
+    position: absolute;
+    top: 100vh;
+    z-index: 0;
+    height: 130%;
+    width: 100%;
+}
+
+
+/*CRAYON ITU*/
+
+#crayon-itu h2 {
+    z-index: 99999;
 }
 
 #crayon-itu .ganjil {
@@ -223,7 +249,7 @@ nav ul a {
 
 #dokumentasi .col {
     padding: 0;
-    margin-top: -0.75rem;
+    margin-top: -0.76rem;
 }
 
 /*DOKUMENTASI SELESAI*/
@@ -243,10 +269,14 @@ nav ul a {
 /*REGISTER*/
 
 #register {
+    height: 85vh;
     background-image: url(../images/gunung.png);
-    background-size: contain;
+    background-size: 90%;
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -272,14 +302,9 @@ h1 {
 }
 
 #register .btn-daftar {
-    margin-right: 40px;
-    border-width: 2px;
-    border-color: red;
-    border-style: solid;
-    border-radius: 20px;
-    color: red;
+    margin-top: 40px;
+    color: white;
     text-transform: none;
-    background-color: white;
     font-size: 2rem !important;
 }
 
