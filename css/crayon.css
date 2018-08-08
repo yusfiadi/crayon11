@@ -3,6 +3,15 @@
     padding: 0px;
 }
 
+html,
+body {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 
 .warna-bg {
     height: auto;
@@ -90,24 +99,79 @@ nav ul a {
 
 /*NAVBAR SELESAI*/
 
-#header-crayon-itu {}
-
 /*CRAYON ITU*/
 
 #header {
     height: 100vh;
     background-image: url(../images/istana.png);
-    background-size: contain;
+    background-size: 50%;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom right;
 }
 
 #header .logo-crayon {
     width: 30%;
     height: auto;
+    margin-left: 20%;
     padding-top: 0px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
+
+#header img.btn-down {
+    width: 50px;
+    animation: glow 3s;
+    -moz-animation: glow 3s;
+    /* Firefox */
+    -webkit-animation: glow 3s;
+    /* Safari and Chrome */
+    -o-animation: demo 3s;
+    /* Opera */
+    animation: glow 3s infinite;
+    margin-top: 150px;
+    border-radius: 50%;
+
+}
+
+@keyframes glow {
+    0% {
+        -moz-box-shadow: 0 0 0 0 #374D7C;
+        -webkit-box-shadow: 0 0 5px 5px #374D7C;
+        box-shadow: 0 0 0 0 #B2FF54;
+    }
+    50% {
+        -moz-box-shadow: 0 0 5px 5px #374D7C;
+        -webkit-box-shadow: 0 0 5px 5px #374D7C;
+        box-shadow: 0 0 5px 5px #374D7C;
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 #374D7C;
+        -webkit-box-shadow: 0 0 0 0px #374D7C;
+        box-shadow: 0 0 0 0 #374D7C;
+    }
+}
+
+@-o-keyframes glow
+/* Opera */
+
+    {
+    0% {
+        -moz-box-shadow: 0 0 0 0 #374D7C;
+        -webkit-box-shadow: 0 0 5px 5px #374D7C;
+        box-shadow: 0 0 0 0 #374D7C;
+    }
+    50% {
+        -moz-box-shadow: 0 0 5px 5px #374D7C;
+        -webkit-box-shadow: 0 0 5px 5px #374D7C;
+        box-shadow: 0 0 5px 5px #374D7C;
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 #374D7C;
+        -webkit-box-shadow: 0 0 0 0px #374D7C;
+        box-shadow: 0 0 0 0 #374D7C;
+    }
+}
+
+
 
 /*HEADER SELESAI*/
 
@@ -115,7 +179,7 @@ nav ul a {
     position: absolute;
     top: 100vh;
     z-index: 0;
-    height: 130%;
+    height: 120%;
     width: 100%;
 }
 
@@ -168,6 +232,7 @@ nav ul a {
 #kompetisi h4.fasilitas {
     color: #A560A5;
 }
+
 
 /*KOMPETISI SELESAI*/
 
@@ -269,11 +334,11 @@ nav ul a {
 /*REGISTER*/
 
 #register {
-    height: 85vh;
+    height: 90vh;
     background-image: url(../images/gunung.png);
     background-size: 90%;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom right;
     margin-bottom: 0;
     margin: 0;
     padding: 0;
@@ -298,7 +363,7 @@ h1 {
 }
 
 .contact {
-    margin-left: 160px;
+    margin-left: 20%;
 }
 
 #register .btn-daftar {
@@ -324,3 +389,59 @@ h1 {
     font-family: 'cray';
     font-size: 30px;
 }
+
+
+
+/* Responsive Web Mobile*/
+
+@media screen and (max-width: 992px) {
+    /*Header*/
+    #header {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/istana.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+
+    #header img.logo-crayon {
+        width: 50%;
+        height: auto;
+        padding-top: 0px;
+        margin-top: 50px;
+        margin-left: 25%;
+    }
+    #header-crayon-itu img.backawan {
+        position: absolute;
+        top: 100vh;
+        z-index: 0;
+        height: 70%;
+        width: 100%;
+        /* BELUM FIXXXX*/
+    }
+    /*Header Selesai*/
+    /*CRAYON ITU*/
+    #crayon-itu h2 {
+        z-index: 99999;
+    }
+
+    #crayon-itu .ganjil {
+        text-align: justify;
+        font-size: 1.6rem;
+    }
+
+    #crayon-itu .genap {
+        text-align: justify;
+        font-size: 1.6rem;
+    }
+    /*    Crayon-itu SELESAI*/
+    /*    Dokumentasi*/
+    .disable-m {
+        display: none;
+    }
+    /*    Dokumentasi SELESAI*/
+}
+
+/*Responsive mobile selesai*/
