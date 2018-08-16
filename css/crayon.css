@@ -115,7 +115,38 @@ nav ul a {
     margin-left: 20%;
     padding-top: 0px;
     margin-top: 80px;
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+    -webkit-animation: mymove 2s infinite;
+    animation: mymove 2s infinite;
 }
+
+@-webkit-keyframes mymove {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+@keyframes mymove {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
 
 #header img.btn-down {
     width: 50px;
@@ -190,21 +221,75 @@ nav ul a {
     z-index: 99999;
 }
 
-#crayon-itu .ganjil {
+#crayon-itu p.ganjil {
     text-align: left;
     font-size: 30px;
+    z-index: 5;
 }
 
-#crayon-itu .genap {
+#crayon-itu p.genap {
     text-align: right;
     font-size: 30px;
+    z-index: 5;
 }
+
+#crayon-itu .container {}
 
 #crayon-itu h2 {
     color: #ED4D47;
     -webkit-text-stroke: 2px #3D3F73;
     text-stroke: 2px #3D3F73;
 }
+
+
+#crayon-itu img.burung1 {
+    position: relative;
+    left: 80%;
+    top: -500px;
+    z-index: 0;
+    width: 15%;
+    height: auto;
+}
+
+#crayon-itu img.burung2 {
+    position: relative;
+    left: 50%;
+    top: -650px;
+    z-index: 0;
+    width: 15%;
+    height: auto;
+    margin: 0px;
+}
+
+#crayon-itu img.burung3 {
+    position: relative;
+    left: -20%;
+    top: -200px;
+    z-index: 0;
+    width: 15%;
+    height: auto;
+    margin: 0px;
+}
+
+#crayon-itu img.burung4 {
+    position: relative;
+    left: -20%;
+    top: -350px;
+    z-index: 0;
+    width: 15%;
+    height: auto;
+}
+
+#crayon-itu img.awan1 {
+    position: relative;
+    left: -40%;
+    top: 0px;
+    z-index: 0;
+    width: 15%;
+    height: auto;
+}
+
+
 
 /*CRAYON ITU SELESAI*/
 
@@ -231,6 +316,46 @@ nav ul a {
 
 #kompetisi h4.fasilitas {
     color: #A560A5;
+}
+
+#kompetisi .container {
+    z-index: 10;
+}
+
+#kompetisi img.awan1 {
+    position: relative;
+    left: 80%;
+    top: 100px;
+    z-index: 0;
+    width: 150px;
+    height: auto;
+}
+
+#kompetisi img.awan2 {
+    position: relative;
+    left: 0%;
+    top: 250px;
+    z-index: 0;
+    width: 120px;
+    height: auto;
+}
+
+#kompetisi img.awan3 {
+    position: relative;
+    left: 50%;
+    top: 400px;
+    z-index: 0;
+    width: 100px;
+    height: auto;
+}
+
+#kompetisi img.burung1 {
+    position: relative;
+    left: 25%;
+    top: 400px;
+    z-index: 0;
+    width: 120px;
+    height: auto;
 }
 
 
@@ -327,6 +452,10 @@ nav ul a {
     color: #ED4D47;
     -webkit-text-stroke: 2px #3D3F73;
     text-stroke: 2px #3D3F73;
+}
+
+#sponsor {
+    height: 70vh;
 }
 
 /*SPONSOR SELESAI*/
@@ -429,12 +558,12 @@ h1 {
 
     #crayon-itu .ganjil {
         text-align: justify;
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
 
     #crayon-itu .genap {
         text-align: justify;
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     /*    Crayon-itu SELESAI*/
     /*    Dokumentasi*/
