@@ -223,13 +223,13 @@ nav ul a {
 
 #crayon-itu p.ganjil {
     text-align: left;
-    font-size: 30px;
+    font-size: 1.8rem;
     z-index: 5;
 }
 
 #crayon-itu p.genap {
     text-align: right;
-    font-size: 30px;
+    font-size: 1.8rem;
     z-index: 5;
 }
 
@@ -442,6 +442,14 @@ nav ul a {
     margin-top: -0.76rem;
 }
 
+#dokumentasi img.crop-atas {
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: block;
+    z-index: 5;
+}
+
 /*DOKUMENTASI SELESAI*/
 
 /*SPONSOR*/
@@ -455,15 +463,23 @@ nav ul a {
 }
 
 #sponsor {
-    height: 70vh;
+    height: 50vh;
 }
 
 /*SPONSOR SELESAI*/
 
 /*REGISTER*/
 
+#register img.crop-bawah {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    display: block;
+    z-index: 5;
+}
+
 #register {
-    height: 90vh;
+    height: 120vh;
     background-image: url(../images/gunung.png);
     background-size: 90%;
     background-repeat: no-repeat;
@@ -571,6 +587,9 @@ h1 {
         display: none;
     }
     /*    Dokumentasi SELESAI*/
+    .side-nav {
+        width: 50%;
+    }
 }
 
 /*Responsive mobile selesai*/
