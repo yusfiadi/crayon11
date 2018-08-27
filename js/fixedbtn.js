@@ -15,4 +15,14 @@
                 }, 800);
                 return false;
             });
+
+            $('.brand-logo').fadeOut();
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 300) {
+                    $('.brand-logo').fadeIn();
+                } else {
+                    $('.brand-logo').fadeOut();
+                }
+            });
+
         });
