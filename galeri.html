@@ -24,25 +24,77 @@
 
 <body>
     <!-- Homepage & Navbar -->
+    <div id="loading" class="preloader-background">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-red">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-yellow">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="spinner-layer spinner-green">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <header>
         <div class="navbar-fixed">
             <nav>
                 <div class="container">
                     <div class="nav-wrapper">
-                        <a href="#!" class="brand-logo"><img src="img/logo.png" class="responsive-img"></a>
+                        <a href="index.html" class="brand-logo"><img src="img/logo.png" class="responsive-img"></a>
                         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
-                            <li><a class="beranda" href="#header">Beranda</a></li>
-                            <li><a class="kompetisi" href="#kompetisi">Kompetisi</a></li>
-                            <li><a class="dokumentasi" href="#dokumentasi">Dokumentasi</a></li>
+                            <li><a class="beranda" href="index.html#hcrayon-itu">Tentang</a></li>
+                            <li><a class="kompetisi" href="index.html#kompetisi">Kompetisi</a></li>
+                            <li><a class="dokumentasi" href="index.html#dokumentasi">Dokumentasi</a></li>
                             <li>
-                                <a class="btn-daftar waves-effect waves-teal btn-flat">Daftar</a>
+                                <a class="btn-daftar waves-effect waves-teal btn-flat" href="#">Daftar</a>
                             </li>
                         </ul>
                         <ul class="side-nav center-align" id="nav-mobile">
-                            <li><a href="#header">BERANDA</a></li>
-                            <li><a href="#kompetisi">KOMPETISI</a></li>
-                            <li><a href="#dokumentasi">DOKUMENTASI</a></li>
+                            <li><a href="index.html#crayon-itu">TENTANG</a></li>
+                            <li><a href="index.html#kompetisi">KOMPETISI</a></li>
+                            <li><a href="index.html#dokumentasi">DOKUMENTASI</a></li>
                             <li>
                                 <a class="bg-acent waves-effect waves-light btn" href="#">Daftar</a>
                             </li>
@@ -298,10 +350,10 @@
                         <div class="grey-text text-lighten-4">
                             <div class="social-media">
                                 <div class="social-wrapper">
-                                    <a class="zmdi zmdi-facebook" href="https://www.facebook.com/CrayonUGM/?fref=ts"></a>
+                                    <a class="zmdi zmdi-facebook" href="https://www.facebook.com/CrayonUGM/"></a>
                                 </div>
                                 <div class="social-wrapper">
-                                    <a class="zmdi zmdi-twitter" href="#"></a>
+                                    <a class="zmdi zmdi-twitter" href="https://twitter.com/CrayonUGM"></a>
                                 </div>
                                 <div class="social-wrapper">
                                     <a class="zmdi zmdi-instagram" href="https://www.instagram.com/crayon.ugm/"></a>
@@ -328,7 +380,6 @@
             s1.setAttribute('crossorigin', '*');
             s0.parentNode.insertBefore(s1, s0);
         })();
-
     </script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="galeri-js/materialize.min.js"></script>
@@ -338,6 +389,7 @@
     <script src=" 
     galeri-js/contact.js"></script>
     <script src="galeri-js/main.js"></script>
+    <script src="galeri-js/preloader.js"></script>
     <!--    <script src="js/about.js"></script>-->
 </body>
 
