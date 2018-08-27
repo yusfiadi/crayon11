@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Galeri</title>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+
+
+    <!-- CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="galeri-css/materialize.min.css">
+    <link rel="stylesheet" href="galeri-css/owl.carousel.css">
+    <link rel="stylesheet" href="galeri-css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="galeri-css/style.css">
+    <link rel="stylesheet" href="galeri-css/timeline.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+
+</head>
+
+<body>
+    <!-- Homepage & Navbar -->
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#!" class="brand-logo"><img src="img/logo.png" class="responsive-img"></a>
+                        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a class="beranda" href="#header">Beranda</a></li>
+                            <li><a class="kompetisi" href="#kompetisi">Kompetisi</a></li>
+                            <li><a class="dokumentasi" href="#dokumentasi">Dokumentasi</a></li>
+                            <li>
+                                <a class="btn-daftar waves-effect waves-teal btn-flat">Daftar</a>
+                            </li>
+                        </ul>
+                        <ul class="side-nav center-align" id="nav-mobile">
+                            <li><a href="#header">BERANDA</a></li>
+                            <li><a href="#kompetisi">KOMPETISI</a></li>
+                            <li><a href="#dokumentasi">DOKUMENTASI</a></li>
+                            <li>
+                                <a class="bg-acent waves-effect waves-light btn" href="#">Daftar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End of Homepage & Navbar -->
+
+
+    <!-- Galeri -->
+    <div id="gallery-page">
+        <div class="container">
+            <!--
+            <div class="row">
+                <div class="col l12 center-align">
+                    <div class="title-gallery">
+                        <h4>GALERI</h4>
+                    </div>
+                </div>
+            </div>
+-->
+            <div class="row">
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/DaftarJuara2014/A/Juara1.png" alt="Juara 1 Crayon 8 Kategori A" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/DaftarJuara2014/A/Juara2.jpg" alt="Juara 2 Crayon 8 Kategori A" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/DaftarJuara2014/A/Juara3.png" alt="Juara 3 Crayon 8 Kategori A" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/DaftarJuara2014/A/JuaraFavorit.png" alt="Juara Favorit Crayon 8 Kategori A" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/DaftarJuara2014/B/Juara1.png" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/DaftarJuara2014/B/Juara2.png" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/DaftarJuara2014/B/Juara3.png" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/DaftarJuara2014/B/JuaraFavorit.png" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/10474654_1097111126965610_8290035791060407885_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/11988518_1097110623632327_8953380621798144418_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/12227020_1097113253632064_754312362086812525_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/12239567_1095492527127470_6222824658144094119_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/12239932_1097117710298285_5617847253552893997_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/12234946_1097117313631658_5728234265140926340_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/12239483_1097118153631574_7026518487603531894_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/angklung.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/12243089_1097114610298595_325466513798971892_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/12250000_1097119720298084_8554614724187750114_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/12250001_1095492507127472_9221356900180930592_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/12250056_1097115170298539_5460487836648684303_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/12274185_1097118970298159_8027954647023840936_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/12278680_1097121056964617_4710397201619141575_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/12279055_1097111110298945_3177803292190855628_n.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/fokus-gambar.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/foto-bareng.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/foto-berdua.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/foto-mantap.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/juara.jpg" alt="" class="materialboxed responsive-img responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/menggambar-juga.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/menggambar.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/rame.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+                <div class="col l4">
+                    <div class="gallery-box">
+                        <img src="img/crayon8/tomo-mantap.jpg" alt="" class="materialboxed responsive-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of Galeri Page-->
+
+    <!--Floating Button-->
+    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+        <a href="#gallery-page" class="btn-floating btn-large" style="background-color:rgba(255, 255, 255, 0.8);">
+            <i class="material-icons" style="color:#727272;">arrow_upward</i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container fnt">
+            <div class="row">
+                <div class="col l6 s12">
+                    <div class="footer-content left-align">
+                        <!--                        <div class="row">-->
+                        <!--
+                            <div class="col l5 valign-wrapper">
+                                <img src="img/logo.png" class="valign center-block"alt="">
+                            </div>
+-->
+                        <!--                            <div class="col l7">-->
+                        <h5 class="white-text">Alamat: </h5>
+                        <p class="grey-text text-lighten-4">&emsp;Gedung S1 Fakultas MIPA Universitas Gadjah Mada</p>
+                        <h5 class="white-text">Kontak:</h5>
+                        <p class="grey-text text-lighten-4">&emsp;Nama - 08000000</p>
+                        <p class="grey-text text-lighten-4">&emsp;Nama - 0884743000</p>
+                        <a href="https://www.google.co.id/maps/place/Fakultas+Matematika+dan+Ilmu+Pengetahuan+Alam/@-7.7673741,110.3747715,17z/data=!3m1!4b1!4m5!3m4!1s0x2e7a585eaaaaaaab:0xc7488103a6c22ce2!8m2!3d-7.7673741!4d110.3769602?hl=en&hl=en" class="bg-acent waves-effect waves-light btn hide-on-large-only" style="background-color:#3ba6a9; color:white;">View Map</a>
+                        <!--                            </div>-->
+                        <!--
+
+                        </div>
+-->
+                    </div>
+                </div>
+                <div class="col l2 hide-on-med-and-down">
+                    <div class="skewed-bg">
+                    </div>
+                </div>
+                <div class="col l4 hide-on-med-and-down">
+                    <div id="map">
+                        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_10P1i-vrOaR3LPzr0UkvgIYB84Qjj8I&callback=initMap" type="text/javascript"></script>
+                    </div>
+                    <!--
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+-->
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright fnt">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 m6 s12">
+                        <div class="text-copyright">
+                            <p>© 2018 Copyright Crayon11</p>
+                        </div>
+                    </div>
+                    <div class="col l6 m6 s12">
+                        <div class="grey-text text-lighten-4">
+                            <div class="social-media">
+                                <div class="social-wrapper">
+                                    <a class="zmdi zmdi-facebook" href="https://www.facebook.com/CrayonUGM/?fref=ts"></a>
+                                </div>
+                                <div class="social-wrapper">
+                                    <a class="zmdi zmdi-twitter" href="#"></a>
+                                </div>
+                                <div class="social-wrapper">
+                                    <a class="zmdi zmdi-instagram" href="https://www.instagram.com/crayon.ugm/"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!--Scripts-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/57b96afe1105e45f7b2e9964/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="galeri-js/materialize.min.js"></script>
+    <script src="galeri-js/owl.carousel.min.js"></script>
+    <script src="galeri-js/init.js"></script>
+    <script src="galeri-js/timeline.js"></script>
+    <script src=" 
+    galeri-js/contact.js"></script>
+    <script src="galeri-js/main.js"></script>
+    <!--    <script src="js/about.js"></script>-->
+</body>
+
+</html>

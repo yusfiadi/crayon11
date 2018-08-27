@@ -99,22 +99,63 @@ nav ul a {
 
 /*NAVBAR SELESAI*/
 
+/* ICON BAR*/
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.instagram {
+    background: #E12C6F;
+    color: white;
+}
+
+/* ICON BAR SELESAI*/
+
 /*CRAYON ITU*/
 
 #header {
     height: 100vh;
-    background-image: url(../images/istana.png);
+    background-image: url(../img/istana.png);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
 #header .logo-crayon {
-    width: 30%;
+    width: 30vw;
     height: auto;
     margin-left: 20%;
     padding-top: 0px;
-    margin-top: 80px;
+    margin-top: 25vh;
     -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
     -webkit-animation: mymove 2s infinite;
@@ -147,21 +188,6 @@ nav ul a {
     }
 }
 
-
-#header img.btn-down {
-    width: 50px;
-    animation: glow 3s;
-    -moz-animation: glow 3s;
-    /* Firefox */
-    -webkit-animation: glow 3s;
-    /* Safari and Chrome */
-    -o-animation: demo 3s;
-    /* Opera */
-    animation: glow 3s infinite;
-    margin-top: 150px;
-    border-radius: 50%;
-
-}
 
 @keyframes glow {
     0% {
@@ -206,6 +232,7 @@ nav ul a {
 
 /*HEADER SELESAI*/
 
+/*
 #header-crayon-itu img.backawan {
     position: absolute;
     top: 100vh;
@@ -213,12 +240,30 @@ nav ul a {
     height: 120%;
     width: 100%;
 }
+*/
 
+#header img.awan-atas {
+    width: 100vw;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: absolute;
+    bottom: -65px;
+    display: block;
+    z-index: 0;
+}
 
 /*CRAYON ITU*/
 
+#crayon-itu {
+    background-color: white;
+}
+
 #crayon-itu h2 {
     z-index: 99999;
+}
+
+#crayon-itu .row {
+    margin-bottom: 0;
 }
 
 #crayon-itu p.ganjil {
@@ -232,8 +277,6 @@ nav ul a {
     font-size: 1.8rem;
     z-index: 5;
 }
-
-#crayon-itu .container {}
 
 #crayon-itu h2 {
     color: #ED4D47;
@@ -298,6 +341,15 @@ nav ul a {
 #kompetisi img {
     width: auto;
     height: 435px;
+}
+
+#kompetisi img.awan-bawah {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    padding-top: 0;
+    display: block;
+    z-index: 5;
 }
 
 #kompetisi h2 {
@@ -480,7 +532,7 @@ nav ul a {
 
 #register {
     height: 120vh;
-    background-image: url(../images/gunung.png);
+    background-image: url(../img/gunung.png);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -539,49 +591,35 @@ h1 {
 
 /* Responsive Web Mobile*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
 
     /*Header*/
     #header {
         width: 100%;
         height: 100vh;
-        background-image: url(../images/istana.png);
+        background-image: url(../img/istana.png);
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: bottom;
     }
-    #header img.btn-down {
-        width: 15%;
-        animation: glow 3s;
-        -moz-animation: glow 3s;
-        /* Firefox */
-        -webkit-animation: glow 3s;
-        /* Safari and Chrome */
-        -o-animation: demo 3s;
-        /* Opera */
-        animation: glow 3s infinite;
-        margin-top: 10vh;
-        border-radius: 50%;
-
-    }
 
 
     #header img.logo-crayon {
-        width: 70%;
+        width: 70vw;
         height: auto;
         padding-top: 0px;
-        margin-top: 50px;
-        margin-left: 15%;
+        margin-top: 25vh;
+        margin-left: 15vw;
     }
-    #header-crayon-itu img.backawan {
-        position: absolute;
-        top: 100vh;
-        z-index: 0;
-        height: 70%;
-        width: 100%;
-        /* BELUM FIXXXX*/
-    }
+
+
     /*Header Selesai*/
+    .icon-bar {
+        right: 0%;
+    }
+    .icon-bar a {
+        padding: 10px;
+    }
     /*CRAYON ITU*/
     #crayon-itu h2 {
         z-index: 99999;
@@ -645,7 +683,7 @@ h1 {
 
     #register {
         height: 100vh;
-        background-image: url(../images/gunung.png);
+        background-image: url(../img/gunung.png);
         background-size: 90%;
         background-repeat: no-repeat;
         background-position: bottom right;
@@ -656,7 +694,6 @@ h1 {
 
 
     #register .langsung-saja {
-        margin-top: 20vh;
         margin-left: 0;
         text-align: center;
         font-family: 'cray';
@@ -668,6 +705,10 @@ h1 {
     }
     .langsung-saja h1 {
         font-size: 3.4rem;
+    }
+
+    #register .container {
+        margin-top: 15vh;
     }
 
     #register .contact {
