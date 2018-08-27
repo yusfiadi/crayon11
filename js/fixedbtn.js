@@ -25,4 +25,13 @@
                 }
             });
 
+            $('.icon-bar').fadeOut();
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 400) {
+                    $('.icon-bar').fadeIn();
+                } else {
+                    $('.icon-bar').fadeOut();
+                }
+            });
+
         });
