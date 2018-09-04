@@ -730,6 +730,11 @@ h1 {
         font-size: 1.6rem !important;
     }
 
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}    
+
 
 
 }
