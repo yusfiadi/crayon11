@@ -730,21 +730,13 @@ h1 {
         font-size: 1.6rem !important;
     }
 
-.parallax-window {
-    max-height: 50px;
-    background: transparent;
+
 }
 
-
-.tengah{
-        top: 50%;
-        left: 50%; 
-        display: block;
-        position: absolute;
-}    
-
-
-
-
-
 /*Responsive mobile selesai*/
+
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
