@@ -735,7 +735,7 @@ h1 {
     background: transparent;
 }
 
-@media (max-width: 480px){
+
 .tengah{
         top: 50%;
         left: 50%; 
@@ -747,10 +747,9 @@ h1 {
         margin-top: -208.5px; 
         margin-left: -375px;
 }    
-}
 
 
-}
+
 
 
 /*Responsive mobile selesai*/
