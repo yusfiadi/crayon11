@@ -678,10 +678,10 @@ h1 {
 
     #kompetisi img.burung1 {
         position: relative;
-        left: 55vw;
-        top: 50vh;
+        left: 12%;
+        top: 400px;
         z-index: 0;
-        width: 30vw;
+        width: 120px;
         height: auto;
     }
 
@@ -731,12 +731,26 @@ h1 {
     }
 
 .parallax-window {
-    min-height: 500px;
+    max-height: 50px;
     background: transparent;
-}    
+}
 
+@media (max-width: 480px){
+.tengah{
+        top: 50%;
+        left: 50%; 
+        display: block;
+        position: absolute;
+        width: 750px;
+        height: 417px;
+
+        margin-top: -208.5px; 
+        margin-left: -375px;
+}    
+}
 
 
 }
+
 
 /*Responsive mobile selesai*/
