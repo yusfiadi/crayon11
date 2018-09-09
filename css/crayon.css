@@ -156,10 +156,11 @@ nav ul a {
     margin-left: 20%;
     padding-top: 0px;
     margin-top: 25vh;
+/*
     -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
     -webkit-animation: mymove 2s infinite;
-    animation: mymove 2s infinite;
+    animation: mymove 2s infinite;*/
 }
 
 @-webkit-keyframes mymove {
@@ -593,6 +594,7 @@ h1 {
 
 
 
+
 /* Responsive Web Mobile*/
 
 @media screen and (max-width: 600px) {
@@ -733,10 +735,9 @@ h1 {
 
 }
 
-/*Responsive mobile selesai*/
-
-
 .parallax-window {
     min-height: 400px;
     background: transparent;
 }
+
+/*Responsive mobile selesai*/
