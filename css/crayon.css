@@ -156,7 +156,7 @@ nav ul a {
     margin-left: 20%;
     padding-top: 0px;
     margin-top: 25vh;
-/*
+    /*
     -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
     -webkit-animation: mymove 2s infinite;
@@ -739,5 +739,6 @@ h1 {
     min-height: 400px;
     background: transparent;
 }
+
 
 /*Responsive mobile selesai*/
