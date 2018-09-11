@@ -47,7 +47,12 @@ nav {
 
 
 .nav-wrapper .brand-logo img {
-    height: 64px;
+    /*    width: 115px;
+    */
+    height: 50px;
+    margin-top: 5px;
+    /*    margin-left: 15px;*/
+    /*    margin-right: 0px;*/
 }
 
 .nav-wrapper i.material-icons {

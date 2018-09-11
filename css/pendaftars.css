@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    margin-left: 10px;
+}
+
+th.right {
+    padding-right: 70px;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    background-color: transparent;
+    color: #4d2195;
+}
+
+.tabs .tab a {
+    color: rgba(32, 19, 62, 0.7);
+}
+
+.tabs .indicator {
+    background-color: #4d2195;
+    height: 3px;
+
+}
+
+.btn {
+    background-color: #4d2195;
+}
+
+.btn:hover {
+    background-color: #090979;
+}
+
+body {
+    background: url('../img/unyufix.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#tab-container {
+    overflow-x: auto;
+    background: #fff;
+}
+
+.btn {
+    font-size: 12px;
+}
