@@ -76,9 +76,6 @@ nav {
 }
 
 
-.nav-wrapper .brand-logo img {
-    height: 50px;
-}
 
 .nav-wrapper i.material-icons {
     font-size: 36px;
@@ -154,6 +151,12 @@ nav ul a {
     .btn-large:hover {
         background-color: #52babd;
         border-bottom: none;
+    }
+    .brand-logo img {
+        /*    width: 115px;*/
+        height: 45px;
+        margin-top: 5px;
+        /*    margin-left: 15px;*/
     }
 }
 

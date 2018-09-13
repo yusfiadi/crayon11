@@ -1,0 +1,100 @@
+/*PENDAFTARAN*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: 'Fredoka One', cursive;
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+
+body {
+    background-attachment: fixed;
+    background-image: url(../img/backbur2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.kalimat {
+    color: #206CB7;
+    font-family: 'Fredoka One', cursive;
+    margin: 150px auto 50px auto;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #f1f1f1;
+    text-shadow: 1px;
+    -webkit-animation: kedip 4s infinite;
+    /* Safari 4.0 - 8.0 */
+    animation: kedip 4s infinite;
+}
+
+
+.formtitle {
+    color: #206CB7;
+
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes kedip {
+    0% {
+        opacity: 0.8;
+    }
+    25% {
+        opacity: 0.9;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+
+/* Standard syntax */
+
+@keyframes kedip {
+    0% {
+        opacity: 0.8;
+    }
+    25% {
+        opacity: 0.9;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .kalimat {
+        margin: 70px auto 10px auto;
+
+    }
+
+    .kalimat h2 {
+        font-size: 30px;
+    }
+
+    .cpcp {
+        font-size: 16px;
+    }
+}

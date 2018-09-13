@@ -624,6 +624,9 @@ h1 {
         margin-left: 15vw;
     }
 
+    .nav-wrapper .brand-logo img {
+        height: 45px;
+    }
 
     /*Header Selesai*/
     .icon-bar {
