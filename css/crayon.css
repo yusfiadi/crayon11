@@ -155,85 +155,15 @@ nav ul a {
     background-position: bottom right;
 }
 
+
+
 #header .logo-crayon {
-    width: 30vw;
+    width: 35vw;
     height: auto;
-    margin-left: 20%;
+    margin-left: 15vw;
     padding-top: 0px;
-    margin-top: 25vh;
-    /*
-    -webkit-transform: rotate(5deg);
-    transform: rotate(5deg);
-    -webkit-animation: mymove 2s infinite;
-    animation: mymove 2s infinite;*/
+    margin-top: 10vh;
 }
-
-@-webkit-keyframes mymove {
-    0% {
-        transform: rotate(5deg);
-    }
-
-    50% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(5deg);
-    }
-}
-
-@keyframes mymove {
-    0% {
-        transform: rotate(5deg);
-    }
-
-    50% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(5deg);
-    }
-}
-
-
-@keyframes glow {
-    0% {
-        -moz-box-shadow: 0 0 0 0 #374D7C;
-        -webkit-box-shadow: 0 0 5px 5px #374D7C;
-        box-shadow: 0 0 0 0 #B2FF54;
-    }
-    50% {
-        -moz-box-shadow: 0 0 5px 5px #374D7C;
-        -webkit-box-shadow: 0 0 5px 5px #374D7C;
-        box-shadow: 0 0 5px 5px #374D7C;
-    }
-    100% {
-        -moz-box-shadow: 0 0 0 0 #374D7C;
-        -webkit-box-shadow: 0 0 0 0px #374D7C;
-        box-shadow: 0 0 0 0 #374D7C;
-    }
-}
-
-@-o-keyframes glow
-/* Opera */
-
-    {
-    0% {
-        -moz-box-shadow: 0 0 0 0 #374D7C;
-        -webkit-box-shadow: 0 0 5px 5px #374D7C;
-        box-shadow: 0 0 0 0 #374D7C;
-    }
-    50% {
-        -moz-box-shadow: 0 0 5px 5px #374D7C;
-        -webkit-box-shadow: 0 0 5px 5px #374D7C;
-        box-shadow: 0 0 5px 5px #374D7C;
-    }
-    100% {
-        -moz-box-shadow: 0 0 0 0 #374D7C;
-        -webkit-box-shadow: 0 0 0 0px #374D7C;
-        box-shadow: 0 0 0 0 #374D7C;
-    }
-}
-
 
 
 /*HEADER SELESAI*/
@@ -247,6 +177,17 @@ nav ul a {
     width: 100%;
 }
 */
+
+#header .maskot {
+    height: 28vh;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 20vw;
+    z-index: 100;
+    display: block;
+
+}
+
 
 #header img.awan-atas {
     width: 100vw;
@@ -576,6 +517,7 @@ h1 {
     font-size: 2rem !important;
 }
 
+
 /*REGISTER SELESAI*/
 
 .s {
@@ -617,11 +559,21 @@ h1 {
 
 
     #header img.logo-crayon {
-        width: 70vw;
+        width: 80vw;
         height: auto;
         padding-top: 0px;
         margin-top: 25vh;
-        margin-left: 15vw;
+        margin-left: 10vw;
+    }
+
+    #header .maskot {
+        height: 20vh;
+        position: absolute;
+        bottom: -50px;
+        margin-left: 10vw;
+        z-index: 100;
+        display: block;
+
     }
 
     .nav-wrapper .brand-logo img {

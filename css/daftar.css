@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background-image: url(../img/motormabur.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -11,7 +11,7 @@ body {
 
 .container {
     background: white;
-    padding: 20px 25px;
+    padding: 0px 25px;
     border: 5px solid #26a69a;
     width: 550px;
     height: auto;
@@ -62,7 +62,7 @@ radio:required {
 @media only screen and (max-width: 768px) {
     .container {
         background: white;
-        padding: 20px 25px;
+        padding: 0px 25px;
         border: 5px solid #26a69a;
         width: 85%;
         box-sizing: border-box;
@@ -77,4 +77,15 @@ radio:required {
     }
 
 
+}
+
+
+
+/*OVERRIDE RANGE FIELD MATERIALIZE*/
+
+input[type=range] + .thumb.active .value {
+    color: #fff !important;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    font-size: 19px !important;
 }
